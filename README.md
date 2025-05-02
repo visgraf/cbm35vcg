@@ -1,2 +1,2 @@
 # cbm35vcg
-Sessão Temática de Visão e COmputação Gráfica
+Sessão Temática de Visão e Computação Gráfica
