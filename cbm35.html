@@ -205,7 +205,7 @@ TIME
 TIME
 <IMG SRC="fotos/waldemar.png" ALIGN="left" CLASS="photo">
 <DD>
-<SPAN CLASS="title">TBA</SPAN>
+<A HREF="#waldemar"><SPAN CLASS="title">Representation and rendering of intrinsic triangulations</SPAN></A>
 <BR>
 <SPAN CLASS="speaker">
 <A HREF="https://web.tecgraf.puc-rio.br/~celes/">Waldemar Celes</A>
@@ -295,6 +295,17 @@ The video game industry continuously advances real-time rendering techniques, wi
  A Computação Visual para Análise de Comportamento Humano (Human Analytics) combina visão computacional e inteligência artificial para analisar o comportamento humano a partir de imagens e vídeos. Aplicada em áreas como saúde, segurança e marketing, ela permite o monitoramento e interpretação de gestos, expressões faciais e movimentos corporais em tempo real. Usando técnicas como aprendizado profundo e reconhecimento de padrões, essa tecnologia é capaz de detectar emoções, prever comportamentos e otimizar processos, como a interação humano-máquina. Assim, a Computação Visual tem transformado a análise de dados comportamentais, criando novas oportunidades para inovação e automação. A palestra discutirá sobre as últimas tendências na área de Computação Visual para Human Analytics, apresentando o estado da arte e as futuras direções de pesquisa da área. 
 </P>
 
+<P ID="waldemar">
+<SPAN CLASS="title">Representation and rendering of intrinsic triangulations</SPAN>
+<BR>
+<SPAN CLASS="speaker">
+<A HREF="https://web.tecgraf.puc-rio.br/~celes/">Waldemar Celes</A>
+</SPAN>
+<SPAN CLASS="affil">(PUC-Rio)</SPAN>
+<P CLASS="resumo">
+Existing intrinsic triangulation frameworks represent powerful tools for geometry processing; however, they all require the extraction of the common subdivision between extrinsic and intrinsic triangulations for visualization and optimized data transfer. In this talk, an efficient and effective algorithm for directly rendering intrinsic triangulations is presented. The strategy is to use GPU shaders to render the intrinsic triangulation while rasterizing extrinsic triangles. The algorithm relies on a point-location algorithm supported by a compact data structure, which requires only two values per extrinsic triangle to represent the correspondence between extrinsic and intrinsic triangulations. This data structure is easier to maintain than previous proposals while supporting all the standard topological operations for improving the intrinsic mesh quality, such as edge flips, triangle refinements, and vertex displacements. Computational experiments show that the proposed data structure is numerically robust and can process nearly degenerate triangulations. A meshless strategy to accurately transfer data from intrinsic to extrinsic triangulations will also be presented.
+</P>
+
 <P ID="paixao">
 <SPAN CLASS="title">The generalized singular value decomposition</SPAN>
 <BR>
@@ -333,7 +344,7 @@ Este trabalho apresenta um método baseado em física usando o Método de Volume
 
 <P CLASS="footer">
 Last update:
-Tue May 20 19:52:02 -03 2025
+Fri May 23 17:59:39 -03 2025
 </P>
 
 </BODY>
